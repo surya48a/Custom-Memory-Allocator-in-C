@@ -19,6 +19,7 @@ struct BlockHeader * prev;
 
 void * myMalloc(size_t);
 void * myCalloc(size_t , size_t);
+void * myRealloc(void * , size_t);
 void myFree(void *);
 
 extern BlockHeader * head;
